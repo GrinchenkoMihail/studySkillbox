@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+
+        <File name="SearchFile" fileName="logs/search.log">
+            <PatternLayout pattern="%msg%n"/>
+            <Filters>
+                <MarkerFilter msrker="INPUT_HISTORY"/>
+            </Filters>
+        </File>
+
+        <File name="WrongInput" fileName="logs/wrong_input.log">
+            <PatternLayout pattern="%msg%n"/>
+            <Filters>
+                <MarkerFilter msrker="INVALID_STATIONS"/>
+            </Filters>
+        </File>
+
+        <File name="Exeptions" fileName="logs/exeptions.log">
+            <PatternLayout pattern="%msg%n"/>
+            <Filters>
+                <MarkerFilter msrker="EXEPTIONS"/>
+            </Filters>
+        </File>
+
+    </appenders>
+
+    <loggers>
+        <root level="info">
+            <appender-ref ref="SearchFile" level = "info" />
+            <appender-ref ref="WrongInput" level = "warn"/>
+            <appender-ref ref="Exeptions" level = "error"/>
+        </root>
+    </loggers>
+</configuration>

@@ -1,0 +1,9 @@
+Until about four decades ago, most manufacturing operations were carried out on traditional machinery,
+such as lathes, milling machines, and presses, which lacked flexibility and required considerable skilled
+labor. Each time a different product was manufactured, the machinery had to be retooled, and the movement
+of materials had to be rearranged. The development of new products and parts with complex shapes required
+numerous trial-and-error attempts by the operator to set the proper processing parameters on the machine.
+Furthermore, because of human involvement, making parts that were exactly alike was difficult. These circumstances
+meant that processing methods were generally inefficient and that labor costs were a significant portion of overall
+production costs. The need for reducing the labor share of product cost gradually became apparent, as was the need to       improve the efficiency and flexibility of manufacturing operations. This need was particularly significant in terms
+of increased competition, both nationally and from other industrialized     countries.
